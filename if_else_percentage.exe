@@ -1,0 +1,38 @@
+#include<stdio.h>
+int main ()
+{
+    int a,b,c,per;
+    
+    printf("enter the marks of a subject:");
+    scanf("%d",&a);
+      printf("enter the marks of b subject:");
+    scanf("%d",&b);
+      printf("enter the marks of c subject:");
+    scanf("%d",&c);
+     per=(a+b+c)/3;
+    printf("your percentag is %d\n",per);
+   
+    if(a>=33){
+        printf("you are pass in a subs\n");
+    } else{
+        printf("you are fail in a subject\n ");
+    }
+
+       if(b>=33){
+        printf("you are pass in b subs\n");
+    } else{
+        printf("you are fail in b  subject\n ");
+    }
+
+       if(c>=33){
+        printf("you are pass in c subs\n");
+    } else{
+        printf("you are fail in c subject\n ");
+    }
+if(per>=40){
+  printf("you pass the exam");
+}else{
+  printf("you failed in exam ");
+}
+return 0;
+}
